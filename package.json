@@ -1,0 +1,25 @@
+{
+  "name": "cronometro",
+  "version": "1.0.0",
+  "description": "cronometro para projeto da faculdade",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniiizita/cronometro_web.git"
+  },
+  "keywords": [
+    "cronometro"
+  ],
+  "author": "Danielle de Paula",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daniiizita/cronometro_web/issues"
+  },
+  "homepage": "https://github.com/Daniiizita/cronometro_web#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

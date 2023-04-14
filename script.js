@@ -68,7 +68,7 @@ function zerarCronometro() {
 
 window.onload = function() {
   atualizarCronometro();
-  document.getElementById("botao-comecar").addEventListener("click", comecarCronometro);
-  document.getElementById("botao-pausar").addEventListener("click", pausarCronometro);
-  document.getElementById("botao-zerar").addEventListener("click", zerarCronometro);
+  document.getElementById("botaoIniciar").addEventListener("click", comecarCronometro);
+  document.getElementById("botaoParar").addEventListener("click", pausarCronometro);
+  document.getElementById("botaoZerar").addEventListener("click", zerarCronometro);
 }

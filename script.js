@@ -44,8 +44,9 @@ function atualizarCronometro() {
     displayMinutos = "0" + displayMinutos;
   }
 
-  document.getElementById("minutos").innerHTML = displaySegundos;
-  document.getElementById("segundos").innerHTML = displayMinutos;
+  document.getElementById("minutos").innerHTML = displayMinutos;
+  document.getElementById("segundos").innerHTML = displaySegundos;
+  
   document.getElementById("milissegundos").innerHTML = displayMilissegundos;
 }
 
